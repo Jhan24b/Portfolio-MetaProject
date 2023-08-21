@@ -21,7 +21,7 @@ const Card = ({ title, description, imageSrc }) => {
           <Text fontSize="lg" color={"gray"}>{description}</Text>
           <Text>
             See More
-            <FontAwesomeIcon icon={faArrowRight} size="lx" style={{ marginLeft: '4px' }}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faArrowRight} size="1x" style={{ marginLeft: '4px' }}></FontAwesomeIcon>
           </Text>
       </VStack>
     </VStack>
